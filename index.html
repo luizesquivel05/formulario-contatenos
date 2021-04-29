@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Formulário para contatar </title>
+</head>
+<body>
+    <form>
+        <label class="upper italic" id="required-field"><span class="form-required">*</span> Campo obrigatório</label> <br>
+        <label class="upper" for="fullName">Nome <span class="form-required">*</span></label>
+        <input class="half" type="text" name="firstName" placeholder="Nome" required>
+        <label class="upper" for="email">Email <span class="form-required">*</span></label>
+        <input type="email" name="email" placeholder="seuendereço@email.com" required> <br>
+        <label class="upper" for="message">Mensagem <span class="form-required">*</span></label>
+        <textarea id="message" name="message" required></textarea> <br>
+        <button class="montserrat upper" type="submit" name="submit">Contate-nos</button>
+    </form>
+</body>
+</html>
